@@ -8,7 +8,8 @@
 6. Una vez introducidos los datos de entrada anteriores, se debe oprimir Procesar y el se generarán  las imagenes en formato JPG en la carpeta de salida proporcionada.
 7. Para los datos de ejemplo del paso 4, el formato de la imagen es `Coche_12_frame_1_500ms.jpg`: en donde Coche_12 corresponde al identificador suministrado, posteriormente el número de frame extraido y el dato final indica el tiempo de muestreo seleccionado.
 8. Al finalizar el procesamiento del video se mostrará el siguiente mensaje:
-[Texto Alternativo](URL de la Imagen)
+9. ![Texto Alternativo]([URL de la Imagen](https://github.com/julian11495/extract-frames/blob/main/Images/1.png)https://github.com/julian11495/extract-frames/blob/main/Images/1.png)
+
 
 
 
