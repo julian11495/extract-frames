@@ -2,7 +2,7 @@
 
 1. Descarga el fichero: `Extraer_frames.py`
 2. Instala las dependencias: `pip install opencv-python`
-3. Desde la terminal de comandos de windows y en la ubicación de descarga correspondiente ejecutar `python Extraer_frames.py`
+3. Desde la terminal de comandos de windows y en la ubicación de descarga correspondiente del fichero descargado conforme el apartado 1, ejecutar `python Extraer_frames.py`
 4. Se abrirá la aplicación mostrada a continuación donde se deben indicar los parámetros de entrada correspondientes.
    
 ![1](https://github.com/julian11495/extract-frames/assets/32869939/323319f3-d577-478d-9c11-c210406c8425)
