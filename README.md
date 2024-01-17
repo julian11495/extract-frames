@@ -1,4 +1,4 @@
-# Aplicación python para extraer frames jpg a partir de videos MP4 cada x tiempo
+# Aplicación python para extraer frames en formato jpg a partir de videos MP4 cada x tiempo definido por el usuario
 
 1. Descarga el fichero: `Extraer_frames.py`
 2. Instala las dependencias: `pip install opencv-python`
