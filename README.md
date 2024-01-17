@@ -2,7 +2,7 @@
 
 1. Descarga el fichero: `Extraer_frames.py`
 2. Instala las dependencias: `pip install opencv-python`
-3. Desde la terminal de comandos de windows ejecutar `python Extraer_frames.py`
+3. Desde la terminal de comandos de windows y en la ubicación de descarga correspondiente ejecutar `python Extraer_frames.py`
 4. Se abrirá la aplicación mostrada a continuación donde se deben indicar los parámetros de entrada correspondientes.
 [Texto Alternativo](URL de la Imagen)
 6. Una vez introducidos los datos de entrada anteriores, se debe oprimir Procesar y el se generarán  las imagenes en formato JPG en la carpeta de salida proporcionada.
