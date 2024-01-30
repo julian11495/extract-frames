@@ -1,9 +1,13 @@
 # Aplicación python para extraer frames en formato jpg a partir de videos MP4 cada x tiempo definido por el usuario
 
-1. Descarga el fichero: `Extraer_frames.py`
-2. Instala las dependencias: `pip install opencv-python`
-3. Desde la terminal de comandos de windows y en la ubicación de descarga correspondiente del fichero descargado conforme el apartado 1, ejecutar `python Extraer_frames.py`
-4. Se abrirá la aplicación mostrada a continuación donde se deben indicar los parámetros de entrada correspondientes.
+1. Instalar Anaconda
+2. Crear un entorno con python 3.10
+3. Abrir la terminal de comando del entorno creado
+4. Instalar opencv usando el comando: `pip install opencv-python`
+5. Intalar ffmpeg usando el comando: `conda install anaconda::ffmpeg`
+6. Descarga el fichero disponible en este repositorio: `Extraer_frames.py`
+7. Desde la terminal de comandos del entorno creado en conda y en la ubicación de descarga correspondiente del fichero descargado conforme el apartado 6, ejecutar `python Extraer_frames.py`
+8. Se abrirá la aplicación mostrada a continuación donde se deben indicar los parámetros de entrada correspondientes.
    
 ![1](https://github.com/julian11495/extract-frames/assets/32869939/323319f3-d577-478d-9c11-c210406c8425)
 
