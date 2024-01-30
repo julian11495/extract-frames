@@ -2,6 +2,8 @@ import cv2
 import tkinter as tk
 from tkinter import filedialog
 from tkinter import messagebox
+import subprocess   
+import os
 
 def seleccionar_carpeta():
     ruta_carpeta = filedialog.askdirectory()
@@ -12,7 +14,24 @@ def mostrar_procesamiento_finalizado():
     messagebox.showinfo("Procesamiento Finalizado", "El procesamiento del video ha finalizado correctamente.")
 
 def extraer_imagenes(video_path, tiempo_captura_ms, ruta_guardado, identificador):
-    video = cv2.VideoCapture(video_path)
+    print(video_path)
+    
+    input_video = video_path
+
+    # Get the directory path without the filename
+    directory_path = os.path.dirname(input_video)
+
+    # Print the result
+    print(directory_path)
+
+
+    output_video = directory_path +'/output.mp4'
+
+    ffmpeg_command = f'ffmpeg -i "{input_video}" -c:v copy -c:a aac -strict experimental "{output_video}"'
+    subprocess.run(ffmpeg_command, shell=True)
+
+
+    video = cv2.VideoCapture(output_video)
     fps = video.get(cv2.CAP_PROP_FPS)
 
     tiempo_frame = tiempo_captura_ms * 0.001 * fps
@@ -35,6 +54,7 @@ def extraer_imagenes(video_path, tiempo_captura_ms, ruta_guardado, identificador
             break
 
     video.release()
+    os.remove(output_video)
     mostrar_procesamiento_finalizado()
 
 def cargar_video():
