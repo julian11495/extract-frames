@@ -1,6 +1,6 @@
 # Aplicación python para extraer frames en formato jpg a partir de videos MP4 cada x tiempo definido por el usuario
 
-1. Instalar Anaconda desde ![1]([https://github.com/julian11495/extract-frames/assets/32869939/323319f3-d577-478d-9c11-c210406c8425](https://www.anaconda.com/download))
+1. Instalar Anaconda desde https://www.anaconda.com/download
 3. Crear un entorno con python 3.10
 4. Abrir la terminal de comando del entorno creado
 5. Instalar opencv usando el comando: `pip install opencv-python`
